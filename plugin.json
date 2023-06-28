@@ -1,0 +1,15 @@
+{
+    "id": "map",
+    "name": "Map",
+    "description": "Plugin for Azuriom",
+    "version": "1.0.0",
+    "url": "https://github.com/lapetitehanae",
+    "authors": [
+        "lapetitehanaé"
+    ],
+    "azuriom_api": "1.0.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Map\\Providers\\MapServiceProvider",
+        "\\Azuriom\\Plugin\\Map\\Providers\\RouteServiceProvider"
+    ]
+}
